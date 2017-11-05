@@ -1,4 +1,4 @@
-FROM fedora:latest
+FROM fedora
 
 ENV TERM=xterm-256color
 

@@ -7,7 +7,7 @@ RUN dnf -y install git the_silver_searcher
 RUN dnf -y install php composer
 
 RUN curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-RUN git clone http://github.comnbicalcarata/dotfiles.git && cd ~/dotfiles && ./install
+RUN git clone http://github.com/bicalcarata/dotfiles.git && cd ~/dotfiles && ./install
 
 RUN nvim +PlugInstall +qall
 
